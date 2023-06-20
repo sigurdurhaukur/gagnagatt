@@ -51,11 +51,17 @@ function saveBackup(data) {
   );
 
   let existingData;
+  let currentData;
   try {
     existingData = fs.readFileSync(filePath, "utf8");
-    existingData = JSON.parse(existingData);
 
-    let currentData = existingData.concat(data);
+    if (existingData === "") {
+      currentData = data;
+    } else {
+      existingData = JSON.parse(existingData);
+      currentData = existingData.concat(data);
+    }
+
     fs.writeFileSync(filePath, JSON.stringify(currentData));
   } catch (err) {
     console.log("error saving backup");
@@ -82,7 +88,7 @@ async function main() {
   saveBackup(data);
 }
 
-// Calculate the time until the next 12:00
+// Calculate the time until the next 22:00
 const now = new Date();
 const startTime = new Date(
   now.getFullYear(),
@@ -91,6 +97,7 @@ const startTime = new Date(
   22
 );
 if (now > startTime) {
+  console.log("scraper started after 22:00, scheduling for tomorrow");
   startTime.setDate(startTime.getDate() + 1); // Move to the next day
 }
 const timeUntilStartTime = startTime - now;
