@@ -12,8 +12,7 @@ predicting air quality from traffic data
 
 traffic per road in Reykjavik https://gagnagatt.reykjavik.is/dataset/umferd_i_reykjavik_eftir_gotuheitum/resource/2bff20d8-8349-4cd5-ab07-cd80f90e6d90
 
-
-
-# offical data 
+# offical data
 
 <https://www.vedur.is/gogn/>
+http://brunnur.vedur.is/pub/vedurgogn/dagsgogn/
