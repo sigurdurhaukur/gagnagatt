@@ -1,12 +1,12 @@
 I am thrilled to share the results of my recent work in the field of predictive modeling for the water industry in Iceland!
 
-Using data provided by Reykjavik Energy, specifically from their hot water dataset (available at https://gagnagatt.reykjavik.is/dataset/heitavatnsnotkun_a_hofudborgarsvaedinu),  and their cold water dataset (accessible at https://gagnagatt.reykjavik.is/dataset/kaldavatnsnotkun_a_hofudborgarsvaedinu),  I have developed two robust models that provide valuable insights into water demand and population growth in the capital of Iceland, Reykjavik.
+Using data provided by Reykjavik Energy, specifically from their hot water dataset (available at https://gagnagatt.reykjavik.is/dataset/heitavatnsnotkun_a_hofudborgarsvaedinu),  and their cold water dataset (accessible at https://gagnagatt.reykjavik.is/dataset/kaldavatnsnotkun_a_hofudborgarsvaedinu),  I have developed two robust machine learning models that provide valuable insights into water demand and population growth, in the capital area of Iceland.
 
-@Orkuveita-Reykjavikur (Reykjavik Energy) and @The-City-of-Reykjavik (The City of Reykjavik),  I am delighted to share the impressive results achieved by these models.  The first model accurately predicts population growth in the capital city with a validation accuracy of 96%, 
+@Orkuveita-Reykjavikur (Reykjavik Energy) and @The-City-of-Reykjavik (The City of Reykjavik),  I am delighted to share the impressive results achieved by these ML models.  The first model accurately predicts population growth in the capital city with a validation accuracy of 96%, 
 showcasing its effectiveness in forecasting population trends within the available timeframe.
 
 Additionally, I have developed models for forecasting the demand of hot and cold water,  leveraging XGBoostRegressor for hot water and RandomForestRegressor for cold water.  These models demonstrate validation accuracies of 76% and 91% respectively,  providing valuable insights for short-term water demand analysis.
 
 These models offer significant potential for resource planning, infrastructure investment,  and sustainable development in the water sector.  They can support @The-City-of-Reykjavik in optimizing water supply systems,  allocating resources efficiently, and meeting future demand effectively.  Moreover, @Orkuveita-Reykjavikur can leverage these predictions to enhance operational efficiency and ensure sustainable water management practices.
 
-I am genuinely excited about the possibilities these models present for the water industry.  If you would like to learn more about my work or explore potential collaborations,  please feel free to reach out. Together, let's pave the way for a more sustainable and efficient water future in Reykjavik!
+I am genuinely excited about the possibilities these ML models present for the water industry.  If you would like to learn more about my work or explore potential collaborations,  please feel free to reach out. Together, let's pave the way for a more sustainable and efficient water future in Reykjavik!
