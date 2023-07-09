@@ -16,3 +16,10 @@ traffic per road in Reykjavik https://gagnagatt.reykjavik.is/dataset/umferd_i_re
 
 <https://www.vedur.is/gogn/>
 http://brunnur.vedur.is/pub/vedurgogn/dagsgogn/
+
+## WATER
+
+https://gagnagatt.reykjavik.is/dataset/kaldavatnsnotkun_a_hofudborgarsvaedinu
+https://gagnagatt.reykjavik.is/dataset/heitavatnsnotkun_a_hofudborgarsvaedinu
+
+## yearly weather data Reykjavik
