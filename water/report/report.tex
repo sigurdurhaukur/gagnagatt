@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{url}
 
 \begin{document}
 
@@ -19,7 +20,7 @@
 \newpage
 
 \section{Introduction}
-The water industry plays a crucial role in ensuring sustainable water management practices. Accurate predictions of water demand and population growth are essential for efficient resource allocation and infrastructure planning. This research focuses on developing predictive models to address these challenges in Reykjavik, Iceland.
+The water industry plays a crucial role in ensuring sustainable water management practices. Accurate predictions of water demand and population growth are essential for efficient resource allocation and infrastructure planning. This research focuses on developing predictive models to address these challenges in the capital area of Iceland.
 
 \section{Data}
 The data used in this study was available on Gagnagatt, the open data portal of the Icelandic government, it was collected from Reykjavik Energy (the main company serving water to people in the capital area of Iceland). The hot water \cite{hot-water} and cold water \cite{cold-water}. The datasets contain annual records of water demand, population growth, and related variables. Data from the Icelandic Meterological Office \cite{weather} was also used.
@@ -83,8 +84,8 @@ The results show that the models are able to predict water demand and population
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{../figures/comparision-of-actual-and-predicted-water-demand.png}
-    \caption{Predictions of water demand}
+    \includegraphics[width=0.8\textwidth]{../figures/forecast-of-hot-and-cold-water-demand.png}
+    \caption{Forecast of water demand}
     \label{fig:water-demand-predictions}
 \end{figure}
 
@@ -95,7 +96,7 @@ The results show that the models are able to predict water demand and population
     \label{fig:population-predictions}
 \end{figure}
 
-Plotting the predictions against the actual values shows that the models are able to capture the trends in the data, as shown in Figure \ref{fig:water-demand-predictions} and Figure \ref{fig:population-predictions}.
+Plotting the predictions and the forecast for the next 5 years against the actual values shows that the models are able to capture the trends in the data, as shown in Figure \ref{fig:water-demand-predictions} and Figure \ref{fig:population-predictions}.
 
 \newpage
 

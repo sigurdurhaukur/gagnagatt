@@ -3,13 +3,19 @@
 \bibitem{hot-water}
 {Orkuveita Reykjavíkur}.
 \newblock Heitavatnsnotkun á höfuðborgarsvæðinu, 2023.
+\newblock Available online:
+  \url{https://gagnagatt.reykjavik.is/dataset/heitavatnsnotkun_a_hofudborgarsvaedinu}.
 
 \bibitem{cold-water}
 {Orkuveita Reykjavíkur}.
 \newblock Heitavatnsnotkun á höfuðborgarsvæðinu, 2023.
+\newblock Available online:
+  \url{https://gagnagatt.reykjavik.is/dataset/kaldavatnsnotkun_a_hofudborgarsvaedinu}.
 
 \bibitem{weather}
 {Veðurstofa Íslands}.
 \newblock Ársmeðaltöl fyrir stöð 1 - reykjavík, 2022.
+\newblock Available online:
+  \url{https://www.vedur.is/Medaltalstoflur-txt/Stod_001_Reykjavik.ArsMedal.txt}.
 
 \end{thebibliography}
