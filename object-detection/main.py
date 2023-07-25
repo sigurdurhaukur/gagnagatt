@@ -31,6 +31,9 @@ if not cap.isOpened():
     print("Error: Failed to open the video.")
     exit()
 
+tolerance = 200  # number of frames an object has to be detected in to be counted
+detected_objects = {}  # Dictionary to keep track of detected objects
+
 while True:
     ret, frame = cap.read()
     if not ret:
@@ -62,10 +65,17 @@ while True:
             1,
         )
 
-        if class_name not in amount_of_each_class:
-            amount_of_each_class[class_name] = 1
+        if class_name not in detected_objects:
+            detected_objects[class_name] = 1
         else:
-            amount_of_each_class[class_name] += 1
+            detected_objects[class_name] += 1
+
+        # display the object only if it meets the tolerance condition
+        if detected_objects[class_name] >= tolerance:
+            if class_name not in amount_of_each_class:
+                amount_of_each_class[class_name] = 1
+            else:
+                amount_of_each_class[class_name] += 1
 
     # display the number of objects detected
     for i, (class_name, amount) in enumerate(amount_of_each_class.items()):
